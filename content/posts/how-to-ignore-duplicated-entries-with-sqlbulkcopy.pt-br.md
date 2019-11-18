@@ -3,8 +3,8 @@ title = "Ignorar registros duplicados usando SqlBulkCopy do C#"
 date = "2017-03-09"
 author = "rtio"
 cover = "sql-server.jpeg"
-tags = ["c#", "sqlserver"]
-keywords = ["sqlbulkcopy", "c#", "sql"]
+tags = ["csharp", "sqlserver"]
+keywords = ["sqlbulkcopy", "csharp", "sql"]
 description = "Eu estava construindo um importador de arquivos, porém em determinado momento me deparei com o seguinte cenário, eu tinha que inserir os dados de um mesmo arquivo várias vezes durante um determinado período. Os dados necessitavam estar atualizados o máximo possível e durante esse período o Windows Service tinha que ler o mesmo arquivo várias vezes e atualizar esses dados."
 showFullContent = false
 +++

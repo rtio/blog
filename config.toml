@@ -3,35 +3,38 @@ languageCode = "en-us"
 theme = "terminal"
 paginate = 5
 
+[outputs]
+  page = ["HTML", "RSS", "AMP"]
+
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  themeColor = "green"
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
   # show selector to switch language
-  showLanguageSelector = false
+  showLanguageSelector = true
   # set theme to full screen width
   fullWidthTheme = false
   # center theme with default width
-  centerTheme = false
+  centerTheme = true
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
-    keywords = ""
-    copyright = ""
+    title = "~/rtio/"
+    subtitle = "A simple, retro tech blog"
+    keywords = "php, devops, c#, infrastructure"
+    copyright = "Rafael Meneses"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "~/rtio/"
       logoHomeLink = "/"
 
     [languages.en.menu]
@@ -43,3 +46,23 @@ paginate = 5
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+
+  [languages.pt-br]
+    languageName = "Português"
+    title = "~/rtio/"
+    subtitle = "A simple, retro tech blog"
+    keywords = "php, devops, c#, infrastructure"
+    copyright = "Rafael Meneses"
+    menuMore = "Mostrar mais"
+    readMore = "Ler mais"
+    readOtherPosts = "Ler outras postagens"
+
+    [languages.pt-br.params.logo]
+      logoText = "~/rtio/"
+      logoHomeLink = "/"
+
+    [languages.pt-br.menu]
+      [[languages.pt-br.menu.main]]
+        identifier = "about"
+        name = "Sobre"
+        url = "/sobre"

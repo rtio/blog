@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "rtio.dev"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5

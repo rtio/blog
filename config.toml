@@ -44,10 +44,6 @@ disqusShortname = "rtio"
         identifier = "about"
         name = "About"
         url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
 
   [languages.pt-br]
     languageName = "Português"
@@ -67,4 +63,4 @@ disqusShortname = "rtio"
       [[languages.pt-br.menu.main]]
         identifier = "about"
         name = "Sobre"
-        url = "/sobre"
+        url = "/pt-br/sobre"

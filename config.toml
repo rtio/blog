@@ -2,6 +2,8 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
+googleAnalytics = "UA-152863789-1"
+disqusShortname = "rtio"
 
 [outputs]
   page = ["HTML", "RSS", "AMP"]

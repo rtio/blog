@@ -5,6 +5,9 @@ paginate = 5
 googleAnalytics = "UA-152863789-1"
 disqusShortname = "rtio"
 
+[permalinks]
+  posts = "posts/:slug/"
+
 [outputs]
   page = ["HTML", "RSS", "AMP"]
 

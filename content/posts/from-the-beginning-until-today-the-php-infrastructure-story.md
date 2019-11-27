@@ -1,5 +1,6 @@
 +++
 title = "From the beginning until today, the PHP infrastructure story."
+slug = "from-the-beginning-until-today-the-php-infrastructure-story"
 date = "2019-11-26"
 author = "rtio"
 cover = "infrastructure.jpg"

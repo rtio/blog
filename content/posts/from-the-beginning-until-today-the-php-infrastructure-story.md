@@ -14,7 +14,7 @@ I'm going to tell you a brief story of several PHP infrastructure scenarios and 
 
 # Thinking outside the box
 
- We can start thinking about why some programming languages pass through the decades and some others, no? Why don't major programming languages like Fortran or COBOL keep on the top 10 languages these days? If you take a look at the TIOBE index, you can see the top 10 at the '90s until 2019; most of those aren't present today. But for example, Java, keeps present, why? This chart shows the top 10 most used programming languages in the last 20 years:
+We can start thinking about why some programming languages pass through the decades and some others, no? Why don't major programming languages like Fortran or COBOL keep on the top 10 languages these days? If you take a look at the TIOBE index, you can see the top 10 at the '90s until 2019; most of those aren't present today. But for example, Java, keeps present, why? This chart shows the top 10 most used programming languages in the last 20 years:
 
 ![TIOBE index chart](/tiobe_index_last_20_years.png)
 
@@ -41,9 +41,10 @@ It was first released in 95s' by Rasmus Lerdorf. It has been used for far more c
 **Shared servers** - At this time, we start using version control, like final_version_3.zip and uses the old but gold S/FTP to deploy our sites. We didn't care a lot about security and performance, after all, they were very cheap, and our bosses approved.
 
 **VPS** - Here we start thinking about deploy strategies, SSH, and security. At least, we had more control here.
-Youngerhood
 
-**IaaS** - Infrastructure as s Service. In mid-2010, becoming popular, IaaS start to be part of our lives. AWS, Azure, Google Cloud, these giants provide many services to make our day better, but of course, not cheap at all.
+# Youngerhood
+
+**IaaS** - Infrastructure as a Service. In mid-2010, becoming popular, IaaS start to be part of our lives. AWS, Azure, Google Cloud, these giants provide many services to make our day better, but of course, not cheap at all.
 
 **Docker** - In weak words, Docker is a tool that wraps our application as a virtual machine does, but the main difference is, it shares the host machine resources. Docker runs with minimal programs and local resources, just what it needs for its proposals, such as webserver, and developer environment. If you need more details about what Docker means you can take a look [here](https://blog.usejournal.com/what-is-docker-in-simple-english-a24e8136b90b).
 

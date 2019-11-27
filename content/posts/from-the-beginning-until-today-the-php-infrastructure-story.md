@@ -18,7 +18,7 @@ I'm going to tell you a brief story of several PHP infrastructure scenarios and 
 
 ![TIOBE index chart](/tiobe_index_last_20_years.png)
 
-I believe one of those reasons for this technology change is because some languages aren't designed to run in our current environments. After thinking a lot, I figure out that the infrastructure sais which languages keep in use and which becomes obsolete.
+I believe one of those reasons for this technology change is because some languages aren't designed to run in our current environments. After thinking a lot, I figure out that the infrastructure says which languages keep in use and which becomes obsolete.
 
 # Virtues of PHP
 
